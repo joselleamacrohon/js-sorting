@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Activity 4: Sorted JS </title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="icon" type="image/gif/png" href="assets/icon.png">
+</head>
+<body>
+<!-- Create the page below with the following functionalities:
+	a. page takes a year as an input
+	b. and displays if its a leap year or not
+-->
+
+<div class="container-fluid">	
+
+	<div class="function" id="highestnumber-calculator">	
+			<h3 class="answer">Highest Number: <span id="answer-highest-number">0</span></h3>
+
+			<input id="option1-to-check" type="number" class="input text-center" placeholder="Type your first number here ">
+
+			<input id="option2-to-check" type="number" class="input text-center" placeholder="Type your second number here ">
+			<div>
+ 			<button id="check-number" class="btn btn-dark text-center">Let's Check</button>
+			</div>
+
+	</div>
+
+	<div class="function" id="grade-conversion">	
+			<h3 class="answer">Grade Conversion: <span id="answer-converted-grade"></span> </h3>
+			
+			<input id="grade-to-convert" type="number" class="input text-center" placeholder="Type a grade here ">
+ 			<div>
+ 			<button id="convert-grade" class="btn btn-info text-center">Let's Check</button>
+ 			</div>
+	</div>
+
+	<div class="function" id="greeting-translation">	
+			<h3 class="answer"><span id="answer-translated-greeting">Hello World!</span></h3>
+			
+			<select id="language-choice" name="language" class="input">
+				   <option value="english">English</option>
+				  <option value="french">French</option>
+				  <option value="deutch">Deutch</option>
+				  <option value="filipino">Filipino</option>
+				
+				  <option value="japanese">Nihongo</option>
+				  <option value="spanish">Spanish</option>
+			</select>
+			
+			<div>
+ 			<button id="change-language" class="btn btn-warning text-center">Let's Check</button>
+			</div>
+
+	</div>
+
+</div>	
+<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
