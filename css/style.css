@@ -33,3 +33,7 @@ body{
 	margin-bottom: 1em;
 	color: white;
 }
+
+.btn {
+	width: 10em;
+}
